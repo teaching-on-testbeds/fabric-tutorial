@@ -98,4 +98,26 @@ You should also prepare yourself and your course staff for the issues that stude
 
 ## Ready-to-use learning materials for teaching on FABRIC
 
+### Tutorial examples
 
+#### TCP congestion control
+
+This example shows how the same activity can use different "interfaces" to FABRIC, with very different effect.
+
+In both versions of this example, students will use a Jupyter notebook to reserve resources on FABRIC and configure them. Also, the students in both cases use the Jupyter notebook to visualize the results.
+
+However, 
+
+* in one version, students just run cells and observe the output: [TCP congestion control](https://github.com/teaching-on-testbeds/tcp-congestion-control)
+* in the other version, students log in to resources over SSH and execute commands on them, and observe the output: [TCP congestion control](https://witestlab.poly.edu/blog/tcp-congestion-control-basics/)
+
+#### Load balancing and dynamic scaling on K8S
+
+This example is a more advanced cloud computing sequence that students may run on FABRIC, leading to an open-ended design challenge. It also serves as an example of an education use case that requires "more" than the standard resources:
+
+* this experiment runs only on FABRIC sites that have an IPv4 management network, so it will not work on EDUKY-only projects. 
+* this experiment requires the `VM.NoLimit` permission on the FABRIC project. To allow students to explore a wide variety of deployment strategies taking resource usage into account, every student will use 3x VMs, each having 4 VCPUs, 8 GB memory, 40 GB disk space.
+* on FABRIC, students cannot view the web service they are hosting in their own browser, unless they set up an SSH tunnel. The FABRIC `Net.FABNetv4Ext` and `Net.FABNetv6Ext` are not permitted for education users, for security reasons.
+
+
+Note that the setup stages for this experiment (setting up a Kubernetes cluster) take 10-15 minutes (unattended) to run.
