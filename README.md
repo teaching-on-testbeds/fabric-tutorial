@@ -98,6 +98,15 @@ You should also prepare yourself and your course staff for the issues that stude
 
 ## Ready-to-use learning materials for teaching on FABRIC
 
+
+#### Basic setup/skills
+
+For many students, the first interaction with FABRIC will be [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/). Other "skills"-focused exercises include:
+
+* [Hello, Linux](https://teaching-on-testbeds.github.io/blog/hello-linux)
+* [Inspecting network traffic with tcpdump and Wireshark](https://witestlab.poly.edu/blog/wireshark-tcpdump/)
+
+
 ### Tutorial examples
 
 #### TCP congestion control
