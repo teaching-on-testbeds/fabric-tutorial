@@ -70,4 +70,26 @@ This is also the right time to think about the resources on FABRIC that will be 
 * public IP addresses
 * GPU, FPGA, SmartNIC
 
-you will also need to consider whether resource availability is likely to be a problem. If you have a large course enrollment, you will not be able to support simultaneous use of "scarce" non-virtual resources like GPU, FPGA, and SmartNIC interfaces for all students. However, if you have a small number of students and use of these "scarce" resources is *necessary* for your course topic, you may request to have extra permissions added to your course project.
+you will also need to consider whether resource availability is likely to be a problem. If you have a large course enrollment, you will not be able to support simultaneous use of "scarce" non-virtual resources like GPU, FPGA, and SmartNIC interfaces for all students. (If you try to do this anyway in a large class, it will be a frustrating experience for your students, since they are likely to struggle to get the resources they need to complete their work.) However, if you have a small number of students and use of these "scarce" resources is *necessary* for your course topic, you may request to have extra permissions added to your course project.
+
+
+### Before your course: immediate preparation 
+
+Before your students use FABRIC for the first time in your course, you have some logistics to take care of:
+
+- [ ] **Run through all of your FABRIC assignments to test them (again).** Even if you have previously used the materials you plan to use, things may change. For example, you may need to update a FABRIC API call, or you may need to change a command because the latest version of a software package requires it.
+- [ ] **Request a project for your course.** Use the [FABRIC class request form](https://fabric-testbed.atlassian.net/servicedesk/customer/portal/2/group/11/create/64) to set up a project for your course. At this stage, you will need to already know about the types of resources the materials you are using will require (as discussed above). 
+- [ ] **Have a support plan in place.** Your students are likely to have questions or encounter problems as they use FABRIC, and you need a plan in place for your course staff to support them. Make sure to communicate to students "what you should do if you have a question or problem while working on these assignments".
+- [ ] **Assign ["Hello, FABRIC"](https://teaching-on-testbeds.github.io/hello-fabric/) and add students to your project**. This process involves some iteration - you need your students to request accounts, then you need to add them to your projects once their accounts exist on FABRIC, and then they can continue with setting up their accounts. You should manage this timeframe carefully, with deadlines for your students to (1) initiate the process of creating a FABRIC account, and (2) follow up within 24 hours using the link they received by email to finish creating a FABRIC account, so that you will be able to bulk-add students to the project all at once.
+
+You should also prepare yourself and your course staff for the issues that students are *likely* to encounter, so that you recognize them and are prepared to assist when they come up. Common issues include:
+
+* trying to run experiments without having finished "Hello, FABRIC". You can recognize this from the output of the `fablib.show_config()` command near the top of most FABRIC Jupyter notebooks. Even if a student has previously completed "Hello, FABRIC," they sometimes try to "fix" problems later by changing their FABRIC configuration or removing their keys, in which case they may need to repeat "Hello, FABRIC."
+* executing cells out of order or skipping cells in a Jupyter notebook. You can recognize this by checking the execution count next to each cell in the notebook.
+* problems with SSH and SCP. Many students have limited experience with key-based authentication, and this is exacerbated by the extra bastion host hop required by FABRIC. You may find it easier to have students use the shell in the FABRIC Jupyter environment for SSH, which is configured as part of "Hello, FABRIC," rather than their own local terminals. You can encourage students who are reporting SSH problems to show you the output of their `ssh` command with the `-v` flag added, for more verbose output, in order to help them identify the problem.
+* infrastructure issues, e.g. temporary outages (planned or unplanned). Your students do not have the experience to differentiate between an infrastructure problem and user error, and they are likely to attribute *all* issues to infrastructure problems. You and your course staff should subscribe to the [FABRIC announcements](https://learn.fabric-testbed.net/forums/forum/fabric-announcements/) forum to make sure you are aware of any infrastructure problems, so you can in turn let your students know.
+
+### While students are actively engaged with materials
+
+
+### Afterwards
