@@ -113,11 +113,13 @@ However,
 
 #### Load balancing and dynamic scaling on K8S
 
-This example is a more advanced cloud computing sequence that students may run on FABRIC, leading to an open-ended design challenge. It also serves as an example of an education use case that requires "more" than the standard resources:
+This example about [deploying machine learning systems to the cloud](https://github.com/teaching-on-testbeds/k8s-ml/blob/main/README.md#onboarding-for-fabric-users) is a more advanced cloud computing sequence that students may run on FABRIC, leading to an open-ended design challenge. It also serves as an example of an education use case that requires "more" than the standard resources:
 
 * this experiment runs only on FABRIC sites that have an IPv4 management network, so it will not work on EDUKY-only projects. 
 * this experiment requires the `VM.NoLimit` permission on the FABRIC project. To allow students to explore a wide variety of deployment strategies taking resource usage into account, every student will use 3x VMs, each having 4 VCPUs, 8 GB memory, 40 GB disk space.
-* on FABRIC, students cannot view the web service they are hosting in their own browser, unless they set up an SSH tunnel. The FABRIC `Net.FABNetv4Ext` and `Net.FABNetv6Ext` are not permitted for education users, for security reasons.
+* on FABRIC, students cannot view the web service they are hosting in their own browser, unless they set up an SSH tunnel. The FABRIC `Net.FABNetv4Ext` and `Net.FABNetv6Ext` are not permitted for education projects, for security reasons.
 
+Some notes about running this experiment:
 
-Note that the setup stages for this experiment (setting up a Kubernetes cluster) take 10-15 minutes (unattended) to run.
+* you can try it out without first training your own model! There is a base model that is already provided, if you choose to skip that step.
+* the setup stages for this experiment (setting up a Kubernetes cluster) take 10-20 minutes (unattended) to run.
