@@ -101,11 +101,16 @@ You should also prepare yourself and your course staff for the issues that stude
 
 #### Basic setup/skills
 
-For many students, the first interaction with FABRIC will be [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/). Other "skills"-focused exercises include:
+For many students, the first interaction with FABRIC will be [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/). Other "skills"-focused exercises can include:
 
 * [Hello, Linux](https://teaching-on-testbeds.github.io/blog/hello-linux)
-* [Inspecting network traffic with tcpdump and Wireshark](https://witestlab.poly.edu/blog/wireshark-tcpdump/)
+* [Inspecting network traffic with tcpdump and Wireshark](https://teaching-on-testbeds.github.io/blog/wireshark-and-tcpdump)
 
+For an introductory networking course, a typical sequence of topic-aligned activities might include:
+
+* [TCP/IP protocol stack](https://teaching-on-testbeds.github.io/blog/protocol-layers) (aligned with Chapter 1 in Kurose & Ross 8th edition)
+* [Socket programming in Python]() (Chapter 2 in K&R)
+* [TCP congestion control]() (Chapter 3 in K&R)
 
 ### Tutorial examples
 
