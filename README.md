@@ -2,7 +2,7 @@
 
 Welcome! If you are looking for the materials from the education tutorial at the FABRIC KNIT Community Workshop, you're in the right place.
 
-**Getting extra help**: If you are an instructor that needs help *planning* your use of FABRIC, please post in the [FABRIC educators forum](https://learn.fabric-testbed.net/forums/forum/fabric-educators/). You may also contact the author of this tutorial: [Fraida Fund](mailto:ffund@nyu.edu).
+**Getting extra help**: If you are an instructor that needs help planning your use of FABRIC, please post in the [FABRIC educators forum](https://learn.fabric-testbed.net/forums/forum/fabric-educators/). You may also contact the author of this tutorial: [Fraida Fund](mailto:ffund@nyu.edu).
 
 ## Many ways of teaching with FABRIC
 
@@ -88,8 +88,14 @@ You should also prepare yourself and your course staff for the issues that stude
 * executing cells out of order or skipping cells in a Jupyter notebook. You can recognize this by checking the execution count next to each cell in the notebook.
 * problems with SSH and SCP. Many students have limited experience with key-based authentication, and this is exacerbated by the extra bastion host hop required by FABRIC. You may find it easier to have students use the shell in the FABRIC Jupyter environment for SSH, which is configured as part of "Hello, FABRIC," rather than their own local terminals. You can encourage students who are reporting SSH problems to show you the output of their `ssh` command with the `-v` flag added, for more verbose output, in order to help them identify the problem.
 * infrastructure issues, e.g. temporary outages (planned or unplanned). Your students do not have the experience to differentiate between an infrastructure problem and user error, and they are likely to attribute *all* issues to infrastructure problems. You and your course staff should subscribe to the [FABRIC announcements](https://learn.fabric-testbed.net/forums/forum/fabric-announcements/) forum to make sure you are aware of any infrastructure problems, so you can in turn let your students know.
+* trying to re-create a slice that already exists OR trying to use a slice that is already expired.
+* expired keys.
 
 ### While students are actively engaged with materials
 
 
 ### Afterwards
+
+## Ready-to-use learning materials for teaching on FABRIC
+
+
