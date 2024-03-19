@@ -99,19 +99,6 @@ You should also prepare yourself and your course staff for the issues that stude
 ## Ready-to-use learning materials for teaching on FABRIC
 
 
-#### Basic setup/skills
-
-For many students, the first interaction with FABRIC will be [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/). Other "skills"-focused exercises can include:
-
-* [Hello, Linux](https://teaching-on-testbeds.github.io/blog/hello-linux)
-* [Inspecting network traffic with tcpdump and Wireshark](https://teaching-on-testbeds.github.io/blog/wireshark-and-tcpdump)
-
-For an introductory networking course, a typical sequence of topic-aligned activities might include:
-
-* [TCP/IP protocol stack](https://teaching-on-testbeds.github.io/blog/protocol-layers) (aligned with Chapter 1 in Kurose & Ross 8th edition)
-* [Socket programming in Python]() (Chapter 2 in K&R)
-* [TCP congestion control]() (Chapter 3 in K&R)
-
 ### Tutorial examples
 
 #### TCP congestion control
@@ -137,3 +124,28 @@ Some notes about running this experiment:
 
 * you can try it out without first training your own model! There is a base model that is already provided, if you choose to skip that step.
 * the setup stages for this experiment (setting up a Kubernetes cluster) take 10-20 minutes (unattended) to run.
+
+### More ready-to-use materials
+
+For many students, the first interaction with FABRIC will be
+
+* [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/)
+
+After "Hello, FABRIC", other "skills"-focused exercises can include:
+
+* [Hello, Linux](https://teaching-on-testbeds.github.io/blog/hello-linux)
+* [Inspecting network traffic with tcpdump and Wireshark](https://teaching-on-testbeds.github.io/blog/wireshark-and-tcpdump)
+
+For an introductory networking course, a typical sequence of topic-aligned activities might include:
+
+* [TCP/IP protocol stack](https://teaching-on-testbeds.github.io/blog/protocol-layers) (aligned with Chapter 1 in Kurose & Ross 8th edition)
+* [Socket programming in Python](https://teaching-on-testbeds.github.io/blog/sockets-python) (Chapter 2 in K&R)
+* [TCP congestion control](https://teaching-on-testbeds.github.io/blog/tcp-congestion-control) (Chapter 3 in K&R)
+* [Static routing](https://teaching-on-testbeds.github.io/blog/static-routing) (Chapter 4 in K&R)
+* [ARP](https://teaching-on-testbeds.github.io/blog/address-resolution-protocol-arp) (Chapter 6 in K&R)
+* [Secure networked applications](https://teaching-on-testbeds.github.io/blog/secure-applications) (Chapter 8 in K&R)
+* [Network layer security](https://teaching-on-testbeds.github.io/blog/network-layer-security) (Chapter 8 in K&R)
+
+or may use other materials available [here](https://teaching-on-testbeds.github.io/).  If you are an educator at an institution with a license for Gradescope, lab assignment templates and rubrics are available via Gradescope for some of these - contact Fraida Fund for access.
+
+The FABRIC team also maintains a [repository of additional teaching materials](https://github.com/fabric-testbed/teaching-materials), which you may find useful.
