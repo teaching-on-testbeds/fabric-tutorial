@@ -93,6 +93,15 @@ You should also prepare yourself and your course staff for the issues that stude
 
 ### While students are actively engaged with materials
 
+While students are interacting with FABRIC, be prepared to execute your support plan, with some combination of video walkthrough by course staff, synchronous support in class or in office hours, and asynchronous Q&A.  (Pro tip: you can anticipate students problems and post them yourself as anonymous "questions" on your Q&A forum! This helps students who might have been reluctant to ask for help.)
+
+If necessary, the instructor/TA can escalate issues that the course staff are not able to resolve on their own:
+
+* **For infrastructure problems**: instructor or TA can post on [FABRIC forum](https://learn.fabric-testbed.net/forums/forum/fabric-general-questions-and-discussion/) and then follow up with students once the issue is resolved.
+* **For problems with FABRIC-supported teaching materials**: instructor or TA should post on [FABRIC educators forum](https://learn.fabric-testbed.net/forums/forum/fabric-educators/).
+* **For problems with other teaching materials**: instructor or TA can contact the author of the teaching materials.
+
+
 
 ### Afterwards
 
