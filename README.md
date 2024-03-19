@@ -165,3 +165,7 @@ or may use other materials available [here](https://teaching-on-testbeds.github.
 For "Designing subnets", a random design problem generator is available to give each student a unique assignment - contact Fraida Fund for access.
 
 The FABRIC team also maintains a [repository of additional teaching materials](https://github.com/fabric-testbed/teaching-materials), which you may find useful.
+
+---
+
+This material is based upon work supported by the National Science Foundation under Grant No. 2231984. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
