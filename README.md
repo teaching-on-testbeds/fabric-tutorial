@@ -101,9 +101,11 @@ If necessary, the instructor/TA can escalate issues that the course staff are no
 * **For problems with FABRIC-supported teaching materials**: instructor or TA should post on [FABRIC educators forum](https://learn.fabric-testbed.net/forums/forum/fabric-educators/).
 * **For problems with other teaching materials**: instructor or TA can contact the author of the teaching materials.
 
-
+Note that the most common infrastructure issues are transient errors - if students are not able to get slice to `StableOK` on the first try, encourage them to delete slice and try again one more time before asking for help.
 
 ### Afterwards
+
+At the end of your course, consider asking students for feedback on their experience with FABRIC. Then, close the loop: share useful comments with the FABRIC team and/or with authors of any course materials you have been using.
 
 ## Ready-to-use learning materials for teaching on FABRIC
 
