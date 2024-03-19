@@ -152,13 +152,16 @@ After "Hello, FABRIC", other "skills"-focused exercises can include:
 For an introductory networking course, a typical sequence of topic-aligned activities might include:
 
 * [TCP/IP protocol stack](https://teaching-on-testbeds.github.io/blog/protocol-layers) (aligned with Chapter 1 in Kurose & Ross 8th edition)
-* [Socket programming in Python](https://teaching-on-testbeds.github.io/blog/sockets-python) (Chapter 2 in K&R)
+* [Socket programming in Python](https://teaching-on-testbeds.github.io/blog/sockets-python) (Chapter 2-3 in K&R)
 * [TCP congestion control](https://teaching-on-testbeds.github.io/blog/tcp-congestion-control) (Chapter 3 in K&R)
 * [Static routing](https://teaching-on-testbeds.github.io/blog/static-routing) (Chapter 4 in K&R)
+* [Designing subnets](https://teaching-on-testbeds.github.io/blog/designing-subnets) (Chapter 4 in K&R)
 * [ARP](https://teaching-on-testbeds.github.io/blog/address-resolution-protocol-arp) (Chapter 6 in K&R)
 * [Secure networked applications](https://teaching-on-testbeds.github.io/blog/secure-applications) (Chapter 8 in K&R)
 * [Network layer security](https://teaching-on-testbeds.github.io/blog/network-layer-security) (Chapter 8 in K&R)
 
 or may use other materials available [here](https://teaching-on-testbeds.github.io/).  If you are an educator at an institution with a license for Gradescope, lab assignment templates and rubrics are available via Gradescope for some of these - contact Fraida Fund for access.
+
+For "Designing subnets", a random design problem generator is available to give each student a unique assignment - contact Fraida Fund for access.
 
 The FABRIC team also maintains a [repository of additional teaching materials](https://github.com/fabric-testbed/teaching-materials), which you may find useful.
